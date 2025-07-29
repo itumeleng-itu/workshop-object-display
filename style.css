@@ -3,6 +3,38 @@ h1{
 }
 #output{
     border: 2px solid grey;
+    border-radius: 15px;
     margin:30px;
-    padding:20px;
+    padding:30px;
+}
+
+@media(max-width:500px){
+    h1{
+    text-align: center;
+    font-size: small;
+    }
+    #output{
+        border: 2px solid grey;
+        border-radius: 15px;
+        margin:10px;
+        padding:30px;
+        font-size: small;
+        width:200px;
+        margin: auto;
+    }
+}
+
+@media(max-width:950px){
+    h1{
+    text-align: center;
+    font-size: large;
+    }
+    #output{
+        border: 2px solid grey;
+        border-radius: 15px;
+        margin:10px;
+        padding:30px;
+        font-size: large;
+        margin: auto;
+    }
 }
